@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>My First JavaScript Program</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: black;
+        font-family: 'Nova Square', cursive;
+    }
+    p{
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+<body>
+    <a href="index.html">Home Page</a>
+    <p>
+        Please open Console Panel in Developer Tools to see the Tasks & Functions. <br><br>
+        Thanks!
+    </p>
+    <script>
+        console.log("Hello, World!"); // simple console message
+
+        let greeting = "Hello, JavaScript!";
+        console.log(greeting); // Outputs: Hello, JavaScript!
+
+        // Task 1: Print Name
+        console.log("Shreyas P Kulkarni")
+
+        // Task 2: Simple Math
+        console.log(2 + 2) // Addition of two numbers
+        console.log(8 - 2) // Subtraction of two numbers
+        console.log(5 * 2) // Multiplication of two numbers
+        console.log(5 / 2) // Division of two numbers
+        console.log(5 % 2) // Modulus of two numbers
+
+        // Task 3: Assigning value to variable and printing
+        let city = "Navi Mumbai"
+        console.log(city) 
+
+        let a = 25
+        let b = 17
+        console.log(a + b)
+
+        // Task 4: Function Creation
+        function sayHello(name) {
+            console.log("Hello,",name)
+        }
+
+        sayHello('Shrey')
+
+        // Task 5: Math Functions
+        function subNumbers(a,b){
+            return a - b
+        }
+
+        console.log(subNumbers(25,2))
+        console.log(subNumbers(28,3))
+        console.log(subNumbers(10,5))
+
+        // Task6: Advance Variables
+        const birthYear = 2000
+        console.log("birthYear", birthYear)
+        
+        let fav_fruit = ['Mango', 'Banana', 'Guava']
+        console.log("Fav Fruit List", fav_fruit)
+        
+        let book = {
+            title: "Mrityunjaya",
+            author : "Shivaji Sawant",
+            publishYear : 1989
+        }
+        console.log("Fav Book", book)
+
+        // Functions in JS
+
+        function greet() {
+            console.log("Shrey Greets you using Greet Function.")
+        }
+
+        greet()
+
+        // Function Parameters and Return Values
+
+        function addNumbers(a,b) {
+            let sum = a + b
+            return sum
+        }
+
+        let result = addNumbers(25,46)
+        console.log(result)
+
+        // Testing: Directly returning a+b | calling function from log directly
+
+        function addNumbers_short(a,b) {
+            return a + b
+        }
+
+        console.log(addNumbers_short(1,2))
+
+        // Variable and Data Types
+        const PI = 3.14
+
+        let colors = ["Black", "White", "Grey"];
+        console.log(colors)
+
+        let person = {
+            name: "Kayo",
+            age: 27
+        };
+
+        console.log(person)
+
+</script>
+
+</body>
+</html>
