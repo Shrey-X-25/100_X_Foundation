@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: 'Nova Square', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #113946;
+    color: #ffffff;
+}
+
+.resume {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 40px;
+    margin-bottom: 10px;
+    transition: font-size 0.3s, color 0.3s; }
+
+.name:hover {
+    font-size: 46px; 
+    color:#bca37f; 
+}
+
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Section styles */
+.section {
+    background-color: #bca37f;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-top: 0;
+    transition: color 0.3s, font-size 0.3s; 
+}
+
+.section h2:hover {
+    color:#113946; 
+    font-size: 36px; 
+}
+
+.list {
+    color: #eeeeee;
+    font-size: 28px;
+    list-style-type:square;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item-title {
+    font-size: 24px;
+}
+
+.item-description {
+    font-size: 18px;
+}
+
+.item-date {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #113946;
+    color: #ffffff;
+    padding: 10px;
+}
